@@ -10,7 +10,7 @@
                 font-family: fancy-font;
                 src: url(ROSSTEN.woff2), format(woff2);
             }
-            body, form, text, label {
+            body, form, text, label, p {
                 font-family: fancy-font, sans-serif;
                 font-display: swap;
             }
@@ -19,34 +19,49 @@
         <title>Sign up</title>
     </head>
     <body>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, numquam deleniti, at excepturi praesentium temporibus eos architecto labore, molestiae voluptatum tempore ipsum quia maxime cumque quos incidunt et explicabo laudantium!</h2>
-        <h2>you know you want to</h2>
-
+        <div id="container">
+            <p> This is not a real online service! You know you need something like this in your life to
+                help you realize your deepest dreams.
+            <br> you know you want to</p>
         <!-- add the form -->
-         <form>
-            <fieldset>
-                <legend>let's do this</legend>
-                
-                <label for="name">Name</label>
-                <input type="text" id="name">
-                
-                <label for="last-name">Last name</label>
-                <input type="text" id="last-name">
-                
-                <label for="email">email</label>
-                <input type="email" id="email">
-                
-                <label for="phone-num">Phone number</label>
-                <input type="tel" id="phone-num">
-                
-                <label for="password">Password</label>
-                <input type="password" id="password" required>
-                
-                <label for="confirm">Confirm-password</label>
-                <input type="password" id="confirm-password" required>
-            </fieldset>
-            <button>Create Account</button>
-         </form>
-         <p>Already have an account? <a href="https://www.google.com">log in</a></p>
+
+             <form>
+                <fieldset>
+                    <legend>let's do this</legend>
+             
+                    <p>
+                        <label for="name">First Name</label>
+                        <input type="text" id="name">
+                    </p>
+             
+                    <p>
+                        <label for="last-name">Last name</label>
+                        <input type="text" id="last-name">
+                    </p>
+             
+                    <p>
+                        <label for="email">email</label>
+                        <input type="email" id="email">
+                    </p>
+             
+                    <p>
+                        <label for="phone-num">Phone number</label>
+                        <input type="tel" id="phone-num">
+                    </p>
+             
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required>
+                    </p>
+             
+                    <p>
+                        <label for="confirm">Confirm-password</label>
+                        <input type="password" id="confirm-password" required>
+                    </p>
+                </fieldset>
+                <button>Create Account</button>
+             </form>
+             <p>Already have an account? <a href="https://www.google.com">log in</a></p>
+         </div>
     </body>
 </html>
